@@ -7,10 +7,10 @@ w = 512;
 u = randi(imax,[h,w]);
 
 % Equidistribution
-ue = globalUni(u,imax);
+ue = equidistribution(u,imax);
 
 % Enhanced Equidistribution
-uee = uniformity(u,imax);
+uee = enhanced_equidistribution(u,imax);
 
 % plot
 fz = 35;
